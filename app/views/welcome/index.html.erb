@@ -1,0 +1,7 @@
+<h2>List of Users</h2>
+
+<% @users.each_with_index do |u,index| %>
+<%= index + 1 %>:
+<%= u.email %>
+<hr>
+<% end %>
